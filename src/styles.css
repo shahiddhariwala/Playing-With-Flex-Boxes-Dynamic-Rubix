@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.innerSqaure {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
